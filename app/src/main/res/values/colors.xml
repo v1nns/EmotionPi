@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+	<color name="black_overlay">#66000000</color>
+    <color name="yellow_bg">#ffffb732</color>
+    <color name="green_bg">#ff6e9900</color>
+    <color name='white_bg'>#ffffffff</color>
+    <color name='black_bg'>#ff000000</color>
+    <color name="progress_green">#ff39DBAC</color>
+    <color name="progress_red">#ffff4255</color>
+    <color name="text_label">#ff696A6D</color>
+    <color name="number_label">#ff3C3D3E</color>
+    <color name="red">#ffF91C56</color>
+    <color name="blue_gray">#ff425666</color>
+    <color name="dark_gray">#ff626161</color>
+    <color name="yellow">#ffFFCE61</color>
+    <color name="dark_red">#ffb4284d</color>
+    <color name="blue_light">#ff33b5e5</color>
+	
+	<!-- Circular progress button -->
+	<color name="cpb_grey">#ffdedede</color>
+    <color name="cpb_blue">#ff0099cc</color>
+    <color name="cpb_blue_dark">#ff00719b</color>
+    <color name="cpb_red">#ffff4444</color>
+    <color name="cpb_red_dark">#ffcd3a3a</color>
+    <color name="cpb_green">#ff99cc00</color>
+    <color name="cpb_green_dark">#ff6d9b00</color>
+    <color name="cpb_white">@android:color/white</color>
+
+    <!-- Ripple background -->
+    <color name="rippelColor">#0099CC</color>
+</resources>

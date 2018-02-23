@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">EmotionPiMobile</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_game_over">GameOverActivity</string>
+    <string name="title_activity_camera_opencv">CameraOpenCVActivity</string>
+    <string name="title_activity_find_wifi">FindWifiActivity</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="preference_file_key">com.tccec.emotionpimobile.PREFERENCES_FILE</string>
+
+    <!-- Emotions -->
+    <string name="angry">Raiva</string>
+    <string name="happy">Feliz</string>
+    <string name="neutral">Neutro</string>
+
+    <!-- Camera -->
+    <string name="request_permission">This project needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+    <!-- Find Wifi Activity -->
+    <string name="searchingForWLAN">Procurando...</string>
+    <string name="connectingWLAN">Conectando...</string>
+
+    <!-- Main Game Activity -->
+    <string name="emotionTitle">Emoção</string>
+    <string name="scoreValue">Pontos:</string>
+
+        <!-- Button -->
+        <string name="Init">Iniciar</string>
+        <string name="Error">Falhou</string>
+        <string name="Success">Acertou</string>
+
+        <!-- Countdown TextView -->
+        <string name="time">Tempo</string>
+        <string name="countdownSuccess">Aguarde próxima emoção...</string>
+        <string name="countdownFailed">Tempo esgotado...</string>
+
+    <!-- Game Over Activity -->
+    <string name="game_over">Game Over</string>
+    <string name="highscore">Parabéns!</string>
+    <string name="actual_score">Sua pontuação:</string>
+    <string name="best_label">Best</string>
+    <string name="retry_game">Jogar novamente</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<com.tccec.emotionpimobile.custom.ripplebackground.RippleBackground
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content"
+    android:background="@color/blue_gray"
+    app:rb_color="#0099CC"
+    app:rb_radius="32dp"
+    app:rb_rippleAmount="6"
+    app:rb_duration="3000"
+    app:rb_scale="6">
+
+    <TextView
+        android:id="@+id/searchingWLANTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/searchingForWLAN"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:textColor="@color/white_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/centerImage"
+        android:src="@drawable/ripple_phone"/>
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/foundDevice"
+        android:layout_above="@id/centerImage"
+        android:layout_marginBottom="32dp"
+        android:layout_toLeftOf="@id/centerImage"
+        android:layout_marginRight="6dp"
+        android:src="@drawable/ripple_server"
+        android:visibility="invisible"/>
+</com.tccec.emotionpimobile.custom.ripplebackground.RippleBackground>

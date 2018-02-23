@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/blue_gray"
+    android:layout_height="match_parent"
+    android:paddingTop="40dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/game_over"
+        android:layout_width="wrap_content"
+        android:text="@string/game_over"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:textColor="@color/white_bg"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/highscore"
+        android:textColor="@color/white_bg"
+        android:id="@+id/highscore_txt"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:background="@drawable/border"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/best_label"
+            android:text="@string/best_label"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/blue_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/best_box"
+            android:textSize="36sp"
+            android:text="176"
+            android:textColor="@color/red"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/level_indicator"
+        android:text="@string/actual_score"
+        android:textSize="20sp"
+        android:textColor="@color/white_bg"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/points_box"
+        android:layout_marginTop="20dp"
+        android:textSize="36sp"
+        android:background="@color/white_bg"
+        android:text="176"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/games_leaderboards"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:onClick="showLeaderboard"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/replay_btn"
+        android:layout_width="180dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/retry_game"
+        android:textSize="15sp"
+        android:background="@drawable/button_replay"
+        android:onClick="playGame"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
