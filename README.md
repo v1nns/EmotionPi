@@ -7,7 +7,7 @@ A fun emotion recognition game developed in Android. :smile:
 
 <p align="center" style="font-size:10px">
   <img src="Screenshot_1.png">  <img src="Screenshot_2.png"><img src="Screenshot_3.png">  <img src="Screenshot_4.png">  <img src="Screenshot_5.png"><br>
-    <h5 align="center">Screenshots from EmotionPi mobile app (I'm not that expert in UI, but I've got pretty satisfied :joy:)</h5>
+    <h5 align="center">Screenshots from EmotionPi mobile app (I'm not that expert in UI, but I've got pretty satisfied with the results :joy:)</h5>
 </p>
 
 <p align="justify">The user's expression is classified as an emotion, by Raspberry Pi, and sent to the mobile phone. The mobile application checks if the emotion identified by Raspberry Pi is the same as requested. If it succeeded, it counts points to the user, otherwise the user loses points. After all, the application demands the next expression. The system topology is a client-server that all communication between devices is made through sockets. Raspberry Pi performs the function of a central server, responsible for the main processing and connection management, the clients are the players that connect to the server through the app.</p>
